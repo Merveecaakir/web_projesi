@@ -1,0 +1,130 @@
+.home {
+    background-color: #151932;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 20px;
+    &__top {
+        min-height: 100vh;
+    }
+    &__img {
+        background-image: url("../../assets/banner02.png");
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        max-height: 100vh;
+        z-index: -1;
+    }
+    &__title {
+        color: #fff;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    &__text {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    &__boxes {
+        margin-top: 40px;
+    }
+
+    &__select-container {
+        background: #252c48;
+        box-shadow: 0 10px 30px 0 rgba(17, 38, 117, 0.3);
+        padding: 15px 5px 15px 5px;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 12px;
+        max-width: 60%;
+        
+    }
+
+    &__popover {
+        color: rgba(106, 121, 185, 0.8);
+        cursor: pointer;
+
+        .popover-body {
+            background: #343d60;
+            color: rgba(106, 121, 185, 0.8);
+        }
+    }
+
+    &__select {
+        background: #343d60;
+        border-color: rgba(42, 56, 76, 0.15);
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+        padding: 10px 15px 10px 15px;
+        border: 1px solid rgba(79, 79, 79, 0.1);
+        border-radius: 999px;
+        display: flex;
+        align-items: center;
+        select {
+            outline: none;
+            appearance: none;
+            flex: 1;
+            color: rgba(106, 121, 185, 0.8);
+            text-align-last: center;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            max-width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        option {
+            color: #496cfe;
+            background: #fff;
+        }
+
+        .react-datepicker-wrapper {
+            margin-left: 10px;
+            .react-datepicker__input-container {
+                input {
+                    border: none;
+                    outline: none;
+                    max-width: 100%;
+                    background: inherit;
+                    color: rgba(106, 121, 185, 0.8);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    &__box {
+        height: 320px;
+        padding: 20px;
+        border-color: rgba(42, 56, 76, 0.5);
+        background-color: #252c48;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        color: #fff;
+        text-align: center;
+        img {
+            width: 120px;
+        }
+        p {
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+
+    .content {
+        &__title {
+            color: #496cfe;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        &__sub-title {
+            color: #fff;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+    }
+}

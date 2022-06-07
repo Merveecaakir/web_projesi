@@ -1,0 +1,38 @@
+.accordion {
+  h5 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  &__dates {
+    &:first-child {
+      font-size: 20px;
+      font-weight: 600;
+      color: #000;
+    }
+
+    &:last-child {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #666363;
+    }
+  }
+
+  &__button {
+    background: linear-gradient(
+      35deg,
+      #9932f5 0%,
+      #4933f1 53%,
+      #4950f8 70%,
+      #496cfe 100%
+    );
+    color: #fff;
+    font-size: 12px;
+    border-radius: 999px;
+  }
+
+  &__body {
+    border-top: 1px solid rgba(73, 108, 254, 0.6);
+    margin-top: 25px;
+  }
+}

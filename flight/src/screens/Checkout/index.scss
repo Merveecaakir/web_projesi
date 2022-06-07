@@ -1,0 +1,33 @@
+.checkout {
+  &__img {
+    background-image: url("../../assets/bredcump.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+
+    p {
+      font-size: 4rem;
+      font-weight: 700;
+      color: #fff;
+      padding-left: 100px;
+    }
+  }
+
+  &__form-container {
+    border: 1px solid rgba(13, 21, 75, 0.15);
+    box-shadow: 0 3px 7px 0 rgba(55, 94, 246, 0.2);
+  }
+
+  &__payment {
+    box-shadow: 0 10px 30px 0 rgba(55, 94, 246, 0.2);
+    padding: 30px;
+    border: 1px solid rgba(42, 56, 76, 0.15);
+    border-radius: 5px;
+    background-color: #fff;
+
+    color: #000;
+  }
+}

@@ -1,0 +1,16 @@
+.admin {
+  .sidebar {
+    font-weight: 200;
+    background: #ffffff;
+    box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+    height: 100%;
+    .nav-link {
+      color: #8d9498;
+      font-size: 1rem;
+      &:hover {
+        color: #575962;
+        background: rgba(199, 199, 199, 0.2);
+      }
+    }
+  }
+}
